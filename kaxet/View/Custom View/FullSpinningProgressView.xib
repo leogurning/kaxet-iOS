@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -38,13 +38,21 @@
                         <action selector="btnStopDownloadingPressed:" destination="-1" eventType="touchUpInside" id="iHm-iv-MQ3"/>
                     </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STOP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leV-eZ-rwP">
+                    <rect key="frame" x="175" y="327" width="25" height="13"/>
+                    <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="11"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="Ief-QJ-ATb" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="H1B-h9-DI4"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ief-QJ-ATb" secondAttribute="trailing" constant="8" id="HsX-3u-OvZ"/>
                 <constraint firstItem="Yjr-eP-8vf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="NZg-Qn-BAb"/>
+                <constraint firstItem="leV-eZ-rwP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="POa-GY-8ef"/>
                 <constraint firstItem="Yjr-eP-8vf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="jGt-sn-dWK"/>
+                <constraint firstItem="leV-eZ-rwP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mI3-eZ-UVU"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
         </view>

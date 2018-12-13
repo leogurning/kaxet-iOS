@@ -431,7 +431,7 @@ extension BuySongViewController: WKNavigationDelegate, WKUIDelegate {
                         //print(newURL)
                         //print("Redirected to browser. No need to open it locally")
                         decisionHandler(.cancel)
-                        self.closeWebView(resfreshParent: true)
+                        //self.closeWebView(resfreshParent: true)
                     } else {
                         //print("browser can not open url. Close all.")
                         decisionHandler(.cancel)
@@ -447,7 +447,7 @@ extension BuySongViewController: WKNavigationDelegate, WKUIDelegate {
                             //print(newURL)
                             //print("Redirected to browser. No need to open it locally")
                             decisionHandler(.cancel)
-                            self.closeWebView(resfreshParent: true)
+                            //self.closeWebView(resfreshParent: true)
                         } else {
                             //print("browser can not open url. Close all.")
                             decisionHandler(.cancel)
@@ -456,7 +456,7 @@ extension BuySongViewController: WKNavigationDelegate, WKUIDelegate {
                     })
                 } else {
                     decisionHandler(.cancel)
-                    self.closeWebView(resfreshParent: false)
+                    self.closeWebView(resfreshParent: true)
                 }
             }
         } else {
@@ -473,19 +473,23 @@ extension BuySongViewController: WKNavigationDelegate, WKUIDelegate {
                 self.closeWebView(resfreshParent: false)
                 
             } else {
+                decisionHandler(.allow)
+                /*
                 //print("Open it locally")
                 if urlString.contains("/airtime/complete") {
+                    /*
                     let infoByte = getParameterFrom(url: urlString, param: "extInfoByte")
                     if infoByte == nil {
                         self.deleteSongPurchase(pOrderId: self.purchaseId)
                     }
+                    */
                     decisionHandler(.cancel)
                     self.closeWebView(resfreshParent: true)
                     
                 } else {
                     decisionHandler(.allow)
                 }
-                
+                */
             }
             
         }

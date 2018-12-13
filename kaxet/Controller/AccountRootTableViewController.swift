@@ -29,7 +29,7 @@ class AccountRootTableViewController: UITableViewController {
         // Uncomment the following line to preserve selection between presentations
          self.clearsSelectionOnViewWillAppear = false
         
-        profileImage.layer.cornerRadius = 5
+        profileImage.layer.cornerRadius = 50
         profileImage.clipsToBounds = true
         
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.

@@ -52,7 +52,7 @@ class UpdateProfileViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         userid = KeychainWrapper.standard.string(forKey: APPCONSTANT.Keychains.Userid)!
-        profileImage.layer.cornerRadius = 5
+        profileImage.layer.cornerRadius = 50
         profileImage.clipsToBounds = true
         userNameTextField.isEnabled = false
         
@@ -684,6 +684,14 @@ extension UpdateProfileViewController: UIGestureRecognizerDelegate {
 
 
 extension UpdateProfileViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        self.dismiss(animated: true) {
+            self.navigationItem.hidesBackButton = false
+            showToolbarView()
+        }
+        
+    }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
 // Local variable inserted by Swift 4.2 migrator.
