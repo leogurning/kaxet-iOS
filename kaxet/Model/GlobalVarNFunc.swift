@@ -14,6 +14,13 @@ import FBSDKLoginKit
 import FBSDKCoreKit
 
 struct APPURL {
+    
+    private struct CodaDomains {
+        static let Dev = "https://sandbox.codapayments.com/airtime"
+        static let Prd = "https://airtime.codapayments.com/airtime"
+        static let Identifier = "codapayments.com"
+    }
+    
     private struct Domains {
         static let Dev = "https://kxlistener.herokuapp.com"
         static let Prd = "https://kxlisp-kaxetprd.4b63.pro-ap-southeast-2.openshiftapps.com"
@@ -32,6 +39,9 @@ struct APPURL {
     private static let Route = Routes.Api
     static let BaseURL = Domain + Route
     static let BaseFileTransferURL = DomainFileTransfer + Route
+    
+    static let CodaDomain = CodaDomains.Prd
+    static let CodaIdentifier = CodaDomains.Identifier
 }
 
 struct APPCONT {

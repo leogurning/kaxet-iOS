@@ -227,7 +227,7 @@ class BuySongViewController: UIViewController {
                             //ToastMessageView.shared.long(self.view, txt_msg: "Purchase by Pulsa or Gopay. Call Coda API. Order Id: \(orderId!)")
                             // Coda Payment Pages Back End Integration :
                             
-                            let urlToExecute = "https://sandbox.codapayments.com/airtime/api/restful/v1.0/Payment/init.json"
+                            let urlToExecute = APPURL.CodaDomain + "/api/restful/v1.0/Payment/init.json"
                             
                             let postString = [ "initRequest": ["apiKey": APPCONSTANT.CodaParams.ApiKey, "orderId": orderId!, "country": APPCONSTANT.CodaParams.CountryCode, "currency": APPCONSTANT.CodaParams.CurrencyCode, "payType": payType, "items": [["code": songid!, "name": songname!, "price": songprice!, "type": 1]], "profile": ["entry": [["key": "user_id", "value": self.userid],["key": "need_mno_id", "value": "Yes"]]]]] as [String: Any]
                             
@@ -253,7 +253,7 @@ class BuySongViewController: UIViewController {
                                 if let transactionCode = txnId {
                                     print("Trx code: \(transactionCode)")
                                     DispatchQueue.main.async {
-                                        let urlToExecute = "https://sandbox.codapayments.com/airtime/begin?type=3&txn_id=\(transactionCode)&browser_type=mobile-web"
+                                        let urlToExecute = APPURL.CodaDomain + "/begin?type=3&txn_id=\(transactionCode)&browser_type=mobile-web"
                                         let restUrl = URL(string: urlToExecute)
                                         let request = URLRequest(url: restUrl!)
                                         // init and load request in webview.
@@ -422,7 +422,7 @@ extension BuySongViewController: WKNavigationDelegate, WKUIDelegate {
         //if navigationAction.navigationType == .linkActivated {}
         
         if let newURL = navigationAction.request.url,
-            let host = newURL.host, !host.contains("codapayments.com") && UIApplication.shared.canOpenURL(newURL) {
+            let host = newURL.host, !host.contains(APPURL.CodaIdentifier) && UIApplication.shared.canOpenURL(newURL) {
             let urlString = newURL.absoluteString
             
             if urlString.hasPrefix("gojek://") {
