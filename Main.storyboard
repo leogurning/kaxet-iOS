@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="kaxet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kaxet_logo" translatesAutoresizingMaskIntoConstraints="NO" id="4DB-mL-Run">
+                                <rect key="frame" x="71" y="286.5" width="233" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="1ks-bW-KiJ"/>
+                                    <constraint firstAttribute="width" constant="233" id="3fC-Ho-QoC"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ug-UY-jBf" userLabel="Top Container">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="286.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cassette_phz_5_rj_7" translatesAutoresizingMaskIntoConstraints="NO" id="Cjk-DC-vFX">
+                                        <rect key="frame" x="87" y="0.0" width="200" height="110"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="YRs-pN-nUT"/>
+                                            <constraint firstAttribute="height" constant="110" id="zAB-W0-tYZ"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Cjk-DC-vFX" firstAttribute="centerX" secondItem="4ug-UY-jBf" secondAttribute="centerX" id="6Pa-ro-wbv"/>
+                                    <constraint firstItem="Cjk-DC-vFX" firstAttribute="top" secondItem="4ug-UY-jBf" secondAttribute="top" id="CSw-0q-kEa"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yEW-FD-bAZ" userLabel="Bottom Container">
+                                <rect key="frame" x="0.0" y="380.5" width="375" height="286.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="K3h-sy-Iu4">
+                                        <rect key="frame" x="30" y="89" width="315" height="110"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Wr-wY-xPy">
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="30"/>
+                                                <color key="backgroundColor" red="0.25098039215686274" green="0.3529411764705882" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Connect with Facebook">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ikq-19-ERX">
+                                                <rect key="frame" x="0.0" y="40" width="315" height="30"/>
+                                                <color key="backgroundColor" red="0.98823529409999999" green="0.90980392160000001" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Sign In With Email">
+                                                    <color key="titleColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llr-jp-CgR">
+                                                <rect key="frame" x="0.0" y="80" width="315" height="30"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Don't have an account? Sign Up">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <font key="NSFont" size="14" name="LaoSangamMN"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="charWrapping" baseWritingDirection="natural" lineSpacing="2" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="K3h-sy-Iu4" firstAttribute="centerY" secondItem="yEW-FD-bAZ" secondAttribute="centerY" id="4gs-1k-C6C"/>
+                                    <constraint firstItem="K3h-sy-Iu4" firstAttribute="leading" secondItem="yEW-FD-bAZ" secondAttribute="leading" constant="30" id="5FF-1O-uXg"/>
+                                    <constraint firstAttribute="trailing" secondItem="K3h-sy-Iu4" secondAttribute="trailing" constant="30" id="6gy-Vx-tQQ"/>
+                                    <constraint firstItem="K3h-sy-Iu4" firstAttribute="centerX" secondItem="yEW-FD-bAZ" secondAttribute="centerX" id="ld1-TU-5Yb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yEW-FD-bAZ" firstAttribute="top" secondItem="4DB-mL-Run" secondAttribute="bottom" id="0ku-jK-2YM"/>
+                            <constraint firstItem="yEW-FD-bAZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1T7-34-i79"/>
+                            <constraint firstAttribute="bottom" secondItem="yEW-FD-bAZ" secondAttribute="bottom" id="3HX-N4-7Es"/>
+                            <constraint firstAttribute="trailing" secondItem="yEW-FD-bAZ" secondAttribute="trailing" id="5Yx-bV-CxX"/>
+                            <constraint firstItem="4ug-UY-jBf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Eda-bo-12W"/>
+                            <constraint firstItem="4DB-mL-Run" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QXT-q0-FLf"/>
+                            <constraint firstItem="4ug-UY-jBf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SA9-uH-Fd8"/>
+                            <constraint firstItem="4ug-UY-jBf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="V1j-fr-u7H"/>
+                            <constraint firstItem="4DB-mL-Run" firstAttribute="top" secondItem="4ug-UY-jBf" secondAttribute="bottom" id="bHp-tb-3TY"/>
+                            <constraint firstItem="4DB-mL-Run" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="flQ-Jx-tC1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="38.23088455772114"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cassette_phz_5_rj_7" width="525" height="333"/>
+        <image name="kaxet_logo" width="304" height="132"/>
+    </resources>
+</document>

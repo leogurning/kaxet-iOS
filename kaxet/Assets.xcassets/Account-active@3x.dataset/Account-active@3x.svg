@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Elements/Nav/Account-active@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Elements/Nav/Account-active" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#3C3C3C" cx="22" cy="23" r="20"></circle>
+        <path d="M22,33 C27.5226,33 32,28.5226 32,23 C32,17.4774 27.5226,13 22,13 C16.4774,13 12,17.4774 12,23 C12,28.5226 16.4774,33 22,33 Z M22,17.8046 C22.96172,17.8046 23.8289,18.38428 24.1968,19.27256 C24.56476,20.16162 24.361644,21.18428 23.68118,21.86396 C23.0015,22.54442 21.97884,22.74756 21.08978,22.37958 C20.2015,22.01162 19.62182,21.14442 19.62182,20.18278 C19.624164,18.87028 20.68744,17.80698 22.00002,17.80458 L22,17.8046 Z M18.7132,24.5178 C19.58508,23.64592 20.7672,23.15686 22,23.15686 C23.2328,23.15686 24.4148,23.64592 25.2868,24.5178 C26.1588,25.38968 26.64852,26.5718 26.64852,27.8046 L17.3517051,27.8046 C17.348594,26.571 17.83844,25.3874 18.71344,24.5178 L18.7132,24.5178 Z" id="Page-1" fill="#FCE86C"></path>
+    </g>
+</svg>

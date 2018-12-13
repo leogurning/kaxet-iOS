@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SongListCell" rowHeight="76" id="KGk-i7-Jjw" customClass="SongListTableViewCell" customModule="kaxet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="76"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="75.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4R-xy-rEf" userLabel="SongView">
+                        <rect key="frame" x="5" y="5" width="345" height="65.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zwa-0u-ZaR" userLabel="NumberView">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="65.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RQ-e3-6TR">
+                                        <rect key="frame" x="25" y="33" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="5RQ-e3-6TR" firstAttribute="centerX" secondItem="Zwa-0u-ZaR" secondAttribute="centerX" id="NUG-o2-EXQ"/>
+                                    <constraint firstItem="5RQ-e3-6TR" firstAttribute="centerY" secondItem="Zwa-0u-ZaR" secondAttribute="centerY" id="oST-rU-tHo"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z1X-FN-hkg" customClass="KxCustomImageView" customModule="kaxet" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="65.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="yYx-Wh-3f1"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgB-az-FXC">
+                                <rect key="frame" x="235" y="0.0" width="60" height="65.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="g4J-YX-lvO"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="btnBuyOrDownloadPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Bxv-AA-Yli"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KkZ-Zl-IkD">
+                                <rect key="frame" x="305" y="0.0" width="40" height="65.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="fru-S5-SgX"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="btnAddToPlaylistPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="tTf-jU-j2Q"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addlib" translatesAutoresizingMaskIntoConstraints="NO" id="zCc-Qw-NqK">
+                                <rect key="frame" x="315" y="15" width="20" height="35.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="JcX-44-OPC"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play" translatesAutoresizingMaskIntoConstraints="NO" id="n7t-aF-ZNW">
+                                <rect key="frame" x="269" y="15" width="20" height="35.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="ikn-oZ-ALi"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="P0I-YU-KhT">
+                                <rect key="frame" x="58" y="10" width="169" height="50.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVp-uU-wXs">
+                                        <rect key="frame" x="0.0" y="0.0" width="169" height="25"/>
+                                        <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k16-zs-8ME">
+                                        <rect key="frame" x="0.0" y="26" width="169" height="24.5"/>
+                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Cs-Ud-pgo" userLabel="priceView">
+                                <rect key="frame" x="235" y="21" width="60" height="24"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJR-hn-Co5">
+                                        <rect key="frame" x="3" y="3" width="54" height="18"/>
+                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="UJR-hn-Co5" firstAttribute="leading" secondItem="9Cs-Ud-pgo" secondAttribute="leading" constant="3" id="38I-DU-Ptz"/>
+                                    <constraint firstItem="UJR-hn-Co5" firstAttribute="top" secondItem="9Cs-Ud-pgo" secondAttribute="top" constant="3" id="3m8-oj-WjK"/>
+                                    <constraint firstAttribute="width" constant="60" id="NJZ-E7-ONu"/>
+                                    <constraint firstAttribute="height" constant="24" id="P4Y-s0-P5Z"/>
+                                    <constraint firstAttribute="bottom" secondItem="UJR-hn-Co5" secondAttribute="bottom" constant="3" id="XPr-wO-12w"/>
+                                    <constraint firstAttribute="trailing" secondItem="UJR-hn-Co5" secondAttribute="trailing" constant="3" id="jEM-Tl-k00"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KkZ-Zl-IkD" secondAttribute="trailing" id="0EI-e3-C6A"/>
+                            <constraint firstItem="z1X-FN-hkg" firstAttribute="leading" secondItem="I4R-xy-rEf" secondAttribute="leading" id="25p-hp-eoj"/>
+                            <constraint firstAttribute="bottom" secondItem="n7t-aF-ZNW" secondAttribute="bottom" constant="15" id="3Ea-7x-xnb"/>
+                            <constraint firstItem="KkZ-Zl-IkD" firstAttribute="top" secondItem="I4R-xy-rEf" secondAttribute="top" id="4IQ-Sm-nRr"/>
+                            <constraint firstItem="KkZ-Zl-IkD" firstAttribute="leading" secondItem="tgB-az-FXC" secondAttribute="trailing" constant="10" id="4Sh-hf-0gb"/>
+                            <constraint firstItem="zCc-Qw-NqK" firstAttribute="top" secondItem="I4R-xy-rEf" secondAttribute="top" constant="15" id="G8i-YZ-2Fl"/>
+                            <constraint firstItem="Zwa-0u-ZaR" firstAttribute="top" secondItem="I4R-xy-rEf" secondAttribute="top" id="NtP-SZ-Shq"/>
+                            <constraint firstAttribute="bottom" secondItem="KkZ-Zl-IkD" secondAttribute="bottom" id="O9s-p9-ymc"/>
+                            <constraint firstItem="z1X-FN-hkg" firstAttribute="top" secondItem="I4R-xy-rEf" secondAttribute="top" id="OtT-27-5VU"/>
+                            <constraint firstAttribute="bottom" secondItem="Zwa-0u-ZaR" secondAttribute="bottom" id="RUW-Gs-BVM"/>
+                            <constraint firstItem="9Cs-Ud-pgo" firstAttribute="leading" secondItem="P0I-YU-KhT" secondAttribute="trailing" constant="8" id="Rn5-bU-iw8"/>
+                            <constraint firstItem="P0I-YU-KhT" firstAttribute="top" secondItem="I4R-xy-rEf" secondAttribute="top" constant="10" id="WSM-71-KEF"/>
+                            <constraint firstAttribute="bottom" secondItem="tgB-az-FXC" secondAttribute="bottom" id="Wam-Id-1Bx"/>
+                            <constraint firstAttribute="trailing" secondItem="zCc-Qw-NqK" secondAttribute="trailing" constant="10" id="asy-eH-hSP"/>
+                            <constraint firstItem="n7t-aF-ZNW" firstAttribute="top" secondItem="I4R-xy-rEf" secondAttribute="top" constant="15" id="avK-n2-1Pa"/>
+                            <constraint firstItem="Zwa-0u-ZaR" firstAttribute="leading" secondItem="I4R-xy-rEf" secondAttribute="leading" id="eSW-Mq-SK2"/>
+                            <constraint firstAttribute="bottom" secondItem="z1X-FN-hkg" secondAttribute="bottom" id="feX-F9-8jY"/>
+                            <constraint firstItem="KkZ-Zl-IkD" firstAttribute="leading" secondItem="n7t-aF-ZNW" secondAttribute="trailing" constant="16" id="oLy-V3-ymZ"/>
+                            <constraint firstItem="KkZ-Zl-IkD" firstAttribute="leading" secondItem="9Cs-Ud-pgo" secondAttribute="trailing" constant="10" id="otb-5E-OqR"/>
+                            <constraint firstItem="tgB-az-FXC" firstAttribute="top" secondItem="I4R-xy-rEf" secondAttribute="top" id="pyQ-3J-P7l"/>
+                            <constraint firstItem="9Cs-Ud-pgo" firstAttribute="centerY" secondItem="I4R-xy-rEf" secondAttribute="centerY" id="pzN-7Y-rZn"/>
+                            <constraint firstAttribute="bottom" secondItem="P0I-YU-KhT" secondAttribute="bottom" constant="5" id="rAP-8Z-YVs"/>
+                            <constraint firstItem="P0I-YU-KhT" firstAttribute="leading" secondItem="z1X-FN-hkg" secondAttribute="trailing" constant="8" id="riC-ag-06v"/>
+                            <constraint firstItem="tgB-az-FXC" firstAttribute="leading" secondItem="P0I-YU-KhT" secondAttribute="trailing" constant="8" id="ucr-uY-5K8"/>
+                            <constraint firstItem="P0I-YU-KhT" firstAttribute="leading" secondItem="Zwa-0u-ZaR" secondAttribute="trailing" constant="8" id="uiN-8V-ur5"/>
+                            <constraint firstAttribute="bottom" secondItem="zCc-Qw-NqK" secondAttribute="bottom" constant="15" id="v18-Gu-87j"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L4b-7O-lbg" userLabel="DownloadView" customClass="SpinningProgressView" customModule="kaxet" customModuleProvider="target">
+                        <rect key="frame" x="275" y="5" width="75" height="65.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="waG-d2-hCn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="I4R-xy-rEf" secondAttribute="trailing" constant="5" id="KfS-XD-VAy"/>
+                    <constraint firstItem="I4R-xy-rEf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="aQA-me-Ye4"/>
+                    <constraint firstAttribute="bottom" secondItem="L4b-7O-lbg" secondAttribute="bottom" constant="5" id="dez-dt-HlQ"/>
+                    <constraint firstAttribute="bottom" secondItem="I4R-xy-rEf" secondAttribute="bottom" constant="5" id="ecL-J0-s8C"/>
+                    <constraint firstAttribute="trailing" secondItem="L4b-7O-lbg" secondAttribute="trailing" constant="5" id="fqf-eg-nbc"/>
+                    <constraint firstItem="L4b-7O-lbg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="hZo-Zv-8xU"/>
+                    <constraint firstItem="I4R-xy-rEf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="yIs-Ob-YbL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addPlaylistImage" destination="zCc-Qw-NqK" id="Tly-fK-uGg"/>
+                <outlet property="albumImage" destination="z1X-FN-hkg" id="cyv-go-ZDe"/>
+                <outlet property="artistNameLabel" destination="k16-zs-8ME" id="PPn-Ph-MlC"/>
+                <outlet property="btnAddToPlaylist" destination="KkZ-Zl-IkD" id="fVM-1Z-ucA"/>
+                <outlet property="btnBuyOrDownload" destination="tgB-az-FXC" id="UQJ-F4-AE0"/>
+                <outlet property="buyOrDownloadImage" destination="n7t-aF-ZNW" id="f4m-y4-IuE"/>
+                <outlet property="numberSongLabel" destination="5RQ-e3-6TR" id="hCn-7l-wu6"/>
+                <outlet property="numberView" destination="Zwa-0u-ZaR" id="UVf-Zt-rQJ"/>
+                <outlet property="priceView" destination="9Cs-Ud-pgo" id="apW-EB-Ft8"/>
+                <outlet property="progressDownloadView" destination="L4b-7O-lbg" id="tAc-sR-pTW"/>
+                <outlet property="songPriceLabel" destination="UJR-hn-Co5" id="Ehh-Tf-T1q"/>
+                <outlet property="songTitleLabel" destination="CVp-uU-wXs" id="Xv3-XI-GBh"/>
+            </connections>
+            <point key="canvasLocation" x="152.80000000000001" y="84.557721139430285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="addlib" width="36" height="36"/>
+        <image name="play" width="36" height="36"/>
+    </resources>
+</document>

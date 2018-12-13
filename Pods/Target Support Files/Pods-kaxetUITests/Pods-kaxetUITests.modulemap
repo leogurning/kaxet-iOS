@@ -1,0 +1,6 @@
+framework module Pods_kaxetUITests {
+  umbrella header "Pods-kaxetUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

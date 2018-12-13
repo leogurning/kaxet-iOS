@@ -1,0 +1,1103 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00717E1F3F98EB4D6269306A /* Pods_kaxetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E95272AEC644C82B4FD8B5 /* Pods_kaxetUITests.framework */; };
+		3D09113921AFF7AD006C14E7 /* FullSpinningProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D09113821AFF7AD006C14E7 /* FullSpinningProgressView.swift */; };
+		3D09113B21AFF7F3006C14E7 /* FullSpinningProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D09113A21AFF7F3006C14E7 /* FullSpinningProgressView.xib */; };
+		3D14EBAA2180662A00FEEEEC /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14EBA92180662A00FEEEEC /* BaseNavigationController.swift */; };
+		3D14EBAC21806BE000FEEEEC /* SearchNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14EBAB21806BE000FEEEEC /* SearchNavigationController.swift */; };
+		3D14EBB02183356000FEEEEC /* RestAPIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14EBAF2183356000FEEEEC /* RestAPIServices.swift */; };
+		3D25AA50219B497700FAC15F /* DisplayLyricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D25AA4F219B497700FAC15F /* DisplayLyricViewController.swift */; };
+		3D25AA52219C38BA00FAC15F /* BuySongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D25AA51219C38BA00FAC15F /* BuySongViewController.swift */; };
+		3D25AA54219ED67500FAC15F /* RecentSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D25AA53219ED67500FAC15F /* RecentSearchTableViewCell.swift */; };
+		3D3F6EC221B6D75F0071E24A /* AccountNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F6EC121B6D75F0071E24A /* AccountNavigationController.swift */; };
+		3D3F6EC421B6D89F0071E24A /* AccountRootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F6EC321B6D89F0071E24A /* AccountRootTableViewController.swift */; };
+		3D3F6EC621B6DD120071E24A /* MenuAccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F6EC521B6DD120071E24A /* MenuAccountTableViewCell.swift */; };
+		3D3F6EC821B6F2050071E24A /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F6EC721B6F2050071E24A /* UpdateProfileViewController.swift */; };
+		3D521B8521672B0900242127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D521B8421672B0900242127 /* Main.storyboard */; };
+		3D521B8A21672CD900242127 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D521B8921672CD900242127 /* LoginViewController.swift */; };
+		3D521B8C216742E800242127 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D521B8B216742E800242127 /* RegisterViewController.swift */; };
+		3D521B8E216B44D300242127 /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D521B8D216B44D300242127 /* UserLogin.swift */; };
+		3D521B90216BE23900242127 /* GlobalVarNFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D521B8F216BE23900242127 /* GlobalVarNFunc.swift */; };
+		3D55DB34217F625E002B4A33 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D55DB33217F625E002B4A33 /* StartViewController.swift */; };
+		3D55DB36217F629F002B4A33 /* MiniPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D55DB35217F629F002B4A33 /* MiniPlayerViewController.swift */; };
+		3D55DB38217F8426002B4A33 /* KaxetTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D55DB37217F8426002B4A33 /* KaxetTabBarViewController.swift */; };
+		3D55DB3A217F84AE002B4A33 /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D55DB39217F84AE002B4A33 /* HomeNavigationController.swift */; };
+		3D6DC4EB20FD28A9000E7D1E /* CustomDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DC4EA20FD28A9000E7D1E /* CustomDesign.swift */; };
+		3D70F5E7216E25D8006AA110 /* GenreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D70F5E6216E25D8006AA110 /* GenreCollectionViewCell.swift */; };
+		3D7EED68218F4F0100EE9B8A /* DownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7EED67218F4F0100EE9B8A /* DownloadTask.swift */; };
+		3D7EED6A218F4F4000EE9B8A /* GenericDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7EED69218F4F4000EE9B8A /* GenericDownloadTask.swift */; };
+		3D7EED6C218F4F8B00EE9B8A /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7EED6B218F4F8B00EE9B8A /* DownloadService.swift */; };
+		3D7EED722191E75900EE9B8A /* SpinningProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7EED712191E75900EE9B8A /* SpinningProgressView.swift */; };
+		3D7EED762191EA3100EE9B8A /* SpinningProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7EED752191EA3100EE9B8A /* SpinningProgressView.xib */; };
+		3D7EED782192E20800EE9B8A /* ToastMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7EED772192E20800EE9B8A /* ToastMessageView.swift */; };
+		3D85451E21B3B99F005719F1 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85451D21B3B99F005719F1 /* PlaylistViewController.swift */; };
+		3D85452021B4C934005719F1 /* AddUserPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85451F21B4C934005719F1 /* AddUserPlaylistViewController.swift */; };
+		3D85452221B4F9B6005719F1 /* PlaylistSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85452121B4F9B6005719F1 /* PlaylistSongViewController.swift */; };
+		3D85452521B543B2005719F1 /* PlaylistSongListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85452321B543B2005719F1 /* PlaylistSongListTableViewCell.swift */; };
+		3D85452621B543B2005719F1 /* PlaylistSongListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D85452421B543B2005719F1 /* PlaylistSongListTableViewCell.xib */; };
+		3D8DD595216C90230045DDCC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DD594216C90230045DDCC /* HomeViewController.swift */; };
+		3D8DD597216D1BCF0045DDCC /* TopRecentSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DD596216D1BCF0045DDCC /* TopRecentSongs.swift */; };
+		3D8DD599216DD1980045DDCC /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DD598216DD1980045DDCC /* BannerCollectionViewCell.swift */; };
+		3DA514EF217B4213004CD7E6 /* GenreSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA514EE217B4213004CD7E6 /* GenreSongsViewController.swift */; };
+		3DA514F2217B440E004CD7E6 /* SongListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA514F0217B440E004CD7E6 /* SongListTableViewCell.swift */; };
+		3DA514F3217B440E004CD7E6 /* SongListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA514F1217B440E004CD7E6 /* SongListTableViewCell.xib */; };
+		3DA5411821ABE0C100DE7CA4 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5411721ABE0C100DE7CA4 /* AlbumViewController.swift */; };
+		3DA5411A21ABF5D700DE7CA4 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5411921ABF5D700DE7CA4 /* SongViewController.swift */; };
+		3DA5C38021B8CE5A00C1CB7A /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5C37F21B8CE5A00C1CB7A /* ChangePasswordViewController.swift */; };
+		3DA5C38221B8DF8E00C1CB7A /* PaymentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5C38121B8DF8E00C1CB7A /* PaymentProfileViewController.swift */; };
+		3DA5C38421B8FB9B00C1CB7A /* PurchaseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5C38321B8FB9B00C1CB7A /* PurchaseInfoViewController.swift */; };
+		3DA5C38621B90D9300C1CB7A /* PurchaseInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5C38521B90D9300C1CB7A /* PurchaseInfoTableViewCell.swift */; };
+		3DAE7E3220FCFEB50062369D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAE7E3120FCFEB50062369D /* AppDelegate.swift */; };
+		3DAE7E3420FCFEB50062369D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAE7E3320FCFEB50062369D /* ViewController.swift */; };
+		3DAE7E3A20FCFEB50062369D /* kaxet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DAE7E3820FCFEB50062369D /* kaxet.xcdatamodeld */; };
+		3DAE7E3C20FCFEB70062369D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAE7E3B20FCFEB70062369D /* Assets.xcassets */; };
+		3DAE7E3F20FCFEB70062369D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAE7E3D20FCFEB70062369D /* LaunchScreen.storyboard */; };
+		3DAE7E4A20FCFEB70062369D /* kaxetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAE7E4920FCFEB70062369D /* kaxetTests.swift */; };
+		3DAE7E5520FCFEB70062369D /* kaxetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAE7E5420FCFEB70062369D /* kaxetUITests.swift */; };
+		3DB2727E21AAF9EA00354838 /* AlbumSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2727D21AAF9EA00354838 /* AlbumSongViewController.swift */; };
+		3DB2728021AB21F200354838 /* LibraryNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2727F21AB21F200354838 /* LibraryNavigationController.swift */; };
+		3DBD050C21A5832F00FBCBE5 /* MenuLibTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD050B21A5832F00FBCBE5 /* MenuLibTableViewCell.swift */; };
+		3DBD050E21A5873F00FBCBE5 /* LibraryRootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD050D21A5873F00FBCBE5 /* LibraryRootTableViewController.swift */; };
+		3DBD051021A59E9E00FBCBE5 /* KxCustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD050F21A59E9E00FBCBE5 /* KxCustomImageView.swift */; };
+		3DBD051221A6C6C900FBCBE5 /* ArtistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD051121A6C6C900FBCBE5 /* ArtistCollectionViewCell.swift */; };
+		3DBD051421A6C9A400FBCBE5 /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD051321A6C9A400FBCBE5 /* ArtistViewController.swift */; };
+		3DBD051621A944A700FBCBE5 /* ArtistAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD051521A944A700FBCBE5 /* ArtistAlbumViewController.swift */; };
+		3DBD051921A9DD5500FBCBE5 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD051721A9DD5500FBCBE5 /* AlbumTableViewCell.swift */; };
+		3DBD051A21A9DD5500FBCBE5 /* AlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DBD051821A9DD5500FBCBE5 /* AlbumTableViewCell.xib */; };
+		3DC5B2BC21AEB36100748E4C /* MySongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC5B2BB21AEB36100748E4C /* MySongViewController.swift */; };
+		3DDE94862170BE6C00F443D2 /* AddToPlaylistInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE94852170BE6C00F443D2 /* AddToPlaylistInitViewController.swift */; };
+		3DDE94882170BEC200F443D2 /* AddToPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE94872170BEC200F443D2 /* AddToPlaylistViewController.swift */; };
+		3DDE948A2170BF5D00F443D2 /* UserPlaylistPopUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE94892170BF5D00F443D2 /* UserPlaylistPopUpTableViewCell.swift */; };
+		3DDE948D2173134200F443D2 /* HomeSongListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE948B2173134200F443D2 /* HomeSongListCollectionViewCell.swift */; };
+		3DDE948E2173134300F443D2 /* HomeSongListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DDE948C2173134200F443D2 /* HomeSongListCollectionViewCell.xib */; };
+		3DF60A32217DFE2A00C7E18B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF60A31217DFE2A00C7E18B /* SearchViewController.swift */; };
+		3DF60A34217E405500C7E18B /* MenuToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF60A33217E405500C7E18B /* MenuToolbar.swift */; };
+		3DF60A36217E655600C7E18B /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF60A35217E655600C7E18B /* BaseCell.swift */; };
+		D88C87229C50E9CE8E006349 /* Pods_kaxetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9DDA033F7B0218BA13A0C4 /* Pods_kaxetTests.framework */; };
+		DD1569EADC4FF0D2A46FFA8C /* Pods_kaxet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA2DD9EB8B1173054ACE4D /* Pods_kaxet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DAE7E4620FCFEB70062369D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DAE7E2620FCFEB50062369D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DAE7E2D20FCFEB50062369D;
+			remoteInfo = kaxet;
+		};
+		3DAE7E5120FCFEB70062369D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DAE7E2620FCFEB50062369D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DAE7E2D20FCFEB50062369D;
+			remoteInfo = kaxet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12E95272AEC644C82B4FD8B5 /* Pods_kaxetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kaxetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		394C7495DDA780C8E054D4C1 /* Pods-kaxetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaxetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kaxetUITests/Pods-kaxetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D09113821AFF7AD006C14E7 /* FullSpinningProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullSpinningProgressView.swift; sourceTree = "<group>"; };
+		3D09113A21AFF7F3006C14E7 /* FullSpinningProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FullSpinningProgressView.xib; sourceTree = "<group>"; };
+		3D14EBA92180662A00FEEEEC /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		3D14EBAB21806BE000FEEEEC /* SearchNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNavigationController.swift; sourceTree = "<group>"; };
+		3D14EBAF2183356000FEEEEC /* RestAPIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIServices.swift; sourceTree = "<group>"; };
+		3D25AA4F219B497700FAC15F /* DisplayLyricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayLyricViewController.swift; sourceTree = "<group>"; };
+		3D25AA51219C38BA00FAC15F /* BuySongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuySongViewController.swift; sourceTree = "<group>"; };
+		3D25AA53219ED67500FAC15F /* RecentSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchTableViewCell.swift; sourceTree = "<group>"; };
+		3D3F6EC121B6D75F0071E24A /* AccountNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountNavigationController.swift; sourceTree = "<group>"; };
+		3D3F6EC321B6D89F0071E24A /* AccountRootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRootTableViewController.swift; sourceTree = "<group>"; };
+		3D3F6EC521B6DD120071E24A /* MenuAccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAccountTableViewCell.swift; sourceTree = "<group>"; };
+		3D3F6EC721B6F2050071E24A /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		3D521B8421672B0900242127 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3D521B8921672CD900242127 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D521B8B216742E800242127 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3D521B8D216B44D300242127 /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
+		3D521B8F216BE23900242127 /* GlobalVarNFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVarNFunc.swift; sourceTree = "<group>"; };
+		3D55DB33217F625E002B4A33 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		3D55DB35217F629F002B4A33 /* MiniPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerViewController.swift; sourceTree = "<group>"; };
+		3D55DB37217F8426002B4A33 /* KaxetTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaxetTabBarViewController.swift; sourceTree = "<group>"; };
+		3D55DB39217F84AE002B4A33 /* HomeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
+		3D6DC4EA20FD28A9000E7D1E /* CustomDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDesign.swift; sourceTree = "<group>"; };
+		3D70F5E6216E25D8006AA110 /* GenreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D7EED67218F4F0100EE9B8A /* DownloadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadTask.swift; sourceTree = "<group>"; };
+		3D7EED69218F4F4000EE9B8A /* GenericDownloadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDownloadTask.swift; sourceTree = "<group>"; };
+		3D7EED6B218F4F8B00EE9B8A /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		3D7EED712191E75900EE9B8A /* SpinningProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinningProgressView.swift; sourceTree = "<group>"; };
+		3D7EED752191EA3100EE9B8A /* SpinningProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpinningProgressView.xib; sourceTree = "<group>"; };
+		3D7EED772192E20800EE9B8A /* ToastMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessageView.swift; sourceTree = "<group>"; };
+		3D85451D21B3B99F005719F1 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		3D85451F21B4C934005719F1 /* AddUserPlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserPlaylistViewController.swift; sourceTree = "<group>"; };
+		3D85452121B4F9B6005719F1 /* PlaylistSongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistSongViewController.swift; sourceTree = "<group>"; };
+		3D85452321B543B2005719F1 /* PlaylistSongListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistSongListTableViewCell.swift; sourceTree = "<group>"; };
+		3D85452421B543B2005719F1 /* PlaylistSongListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistSongListTableViewCell.xib; sourceTree = "<group>"; };
+		3D8DD594216C90230045DDCC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D8DD596216D1BCF0045DDCC /* TopRecentSongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRecentSongs.swift; sourceTree = "<group>"; };
+		3D8DD598216DD1980045DDCC /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DA514EE217B4213004CD7E6 /* GenreSongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreSongsViewController.swift; sourceTree = "<group>"; };
+		3DA514F0217B440E004CD7E6 /* SongListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListTableViewCell.swift; sourceTree = "<group>"; };
+		3DA514F1217B440E004CD7E6 /* SongListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongListTableViewCell.xib; sourceTree = "<group>"; };
+		3DA5411721ABE0C100DE7CA4 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		3DA5411921ABF5D700DE7CA4 /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		3DA5C37F21B8CE5A00C1CB7A /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		3DA5C38121B8DF8E00C1CB7A /* PaymentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentProfileViewController.swift; sourceTree = "<group>"; };
+		3DA5C38321B8FB9B00C1CB7A /* PurchaseInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseInfoViewController.swift; sourceTree = "<group>"; };
+		3DA5C38521B90D9300C1CB7A /* PurchaseInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseInfoTableViewCell.swift; sourceTree = "<group>"; };
+		3DAE7E2E20FCFEB50062369D /* kaxet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaxet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAE7E3120FCFEB50062369D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DAE7E3320FCFEB50062369D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DAE7E3920FCFEB50062369D /* kaxet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kaxet.xcdatamodel; sourceTree = "<group>"; };
+		3DAE7E3B20FCFEB70062369D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DAE7E3E20FCFEB70062369D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DAE7E4020FCFEB70062369D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAE7E4520FCFEB70062369D /* kaxetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaxetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAE7E4920FCFEB70062369D /* kaxetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaxetTests.swift; sourceTree = "<group>"; };
+		3DAE7E4B20FCFEB70062369D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAE7E5020FCFEB70062369D /* kaxetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaxetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAE7E5420FCFEB70062369D /* kaxetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaxetUITests.swift; sourceTree = "<group>"; };
+		3DAE7E5620FCFEB70062369D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB2727D21AAF9EA00354838 /* AlbumSongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumSongViewController.swift; sourceTree = "<group>"; };
+		3DB2727F21AB21F200354838 /* LibraryNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryNavigationController.swift; sourceTree = "<group>"; };
+		3DBD050B21A5832F00FBCBE5 /* MenuLibTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLibTableViewCell.swift; sourceTree = "<group>"; };
+		3DBD050D21A5873F00FBCBE5 /* LibraryRootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryRootTableViewController.swift; sourceTree = "<group>"; };
+		3DBD050F21A59E9E00FBCBE5 /* KxCustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KxCustomImageView.swift; sourceTree = "<group>"; };
+		3DBD051121A6C6C900FBCBE5 /* ArtistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DBD051321A6C9A400FBCBE5 /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		3DBD051521A944A700FBCBE5 /* ArtistAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistAlbumViewController.swift; sourceTree = "<group>"; };
+		3DBD051721A9DD5500FBCBE5 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		3DBD051821A9DD5500FBCBE5 /* AlbumTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumTableViewCell.xib; sourceTree = "<group>"; };
+		3DC5B2BB21AEB36100748E4C /* MySongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySongViewController.swift; sourceTree = "<group>"; };
+		3DDE94852170BE6C00F443D2 /* AddToPlaylistInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToPlaylistInitViewController.swift; sourceTree = "<group>"; };
+		3DDE94872170BEC200F443D2 /* AddToPlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToPlaylistViewController.swift; sourceTree = "<group>"; };
+		3DDE94892170BF5D00F443D2 /* UserPlaylistPopUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPlaylistPopUpTableViewCell.swift; sourceTree = "<group>"; };
+		3DDE948B2173134200F443D2 /* HomeSongListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeSongListCollectionViewCell.swift; path = kaxet/Controller/ViewCells/HomeSongListCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		3DDE948C2173134200F443D2 /* HomeSongListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeSongListCollectionViewCell.xib; path = "kaxet/View/Custom View/HomeSongListCollectionViewCell.xib"; sourceTree = SOURCE_ROOT; };
+		3DF60A31217DFE2A00C7E18B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = kaxet/Controller/SearchViewController.swift; sourceTree = SOURCE_ROOT; };
+		3DF60A33217E405500C7E18B /* MenuToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuToolbar.swift; sourceTree = "<group>"; };
+		3DF60A35217E655600C7E18B /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		3DFF1CEC21BBFB32002F2172 /* kaxet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kaxet.entitlements; sourceTree = "<group>"; };
+		4654CB8F42D1B5297D53CDE3 /* Pods-kaxet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaxet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kaxet/Pods-kaxet.debug.xcconfig"; sourceTree = "<group>"; };
+		67BA2DD9EB8B1173054ACE4D /* Pods_kaxet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kaxet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9BED9CE3A7915DA8FBC3A0 /* Pods-kaxetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaxetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kaxetUITests/Pods-kaxetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE92740DC12522EC3C5F6D10 /* Pods-kaxetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaxetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kaxetTests/Pods-kaxetTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6DA6C53BD5832977C2323AB /* Pods-kaxetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaxetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kaxetTests/Pods-kaxetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F12735886361374698A7A5E6 /* Pods-kaxet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaxet.release.xcconfig"; path = "Pods/Target Support Files/Pods-kaxet/Pods-kaxet.release.xcconfig"; sourceTree = "<group>"; };
+		FE9DDA033F7B0218BA13A0C4 /* Pods_kaxetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kaxetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DAE7E2B20FCFEB50062369D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1569EADC4FF0D2A46FFA8C /* Pods_kaxet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAE7E4220FCFEB70062369D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88C87229C50E9CE8E006349 /* Pods_kaxetTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAE7E4D20FCFEB70062369D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00717E1F3F98EB4D6269306A /* Pods_kaxetUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		157516FEA07BE3DF201BAB42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67BA2DD9EB8B1173054ACE4D /* Pods_kaxet.framework */,
+				FE9DDA033F7B0218BA13A0C4 /* Pods_kaxetTests.framework */,
+				12E95272AEC644C82B4FD8B5 /* Pods_kaxetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D14EBAD21806D7D00FEEEEC /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F6EC121B6D75F0071E24A /* AccountNavigationController.swift */,
+				3D55DB39217F84AE002B4A33 /* HomeNavigationController.swift */,
+				3DB2727F21AB21F200354838 /* LibraryNavigationController.swift */,
+				3D14EBAB21806BE000FEEEEC /* SearchNavigationController.swift */,
+				3D14EBA92180662A00FEEEEC /* BaseNavigationController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		3D14EBAE21806DE000FEEEEC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3D55DB37217F8426002B4A33 /* KaxetTabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		3D521B8621672B4000242127 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DBD050F21A59E9E00FBCBE5 /* KxCustomImageView.swift */,
+				3D7EED67218F4F0100EE9B8A /* DownloadTask.swift */,
+				3D7EED69218F4F4000EE9B8A /* GenericDownloadTask.swift */,
+				3D7EED6B218F4F8B00EE9B8A /* DownloadService.swift */,
+				3DF60A35217E655600C7E18B /* BaseCell.swift */,
+				3D521B8D216B44D300242127 /* UserLogin.swift */,
+				3D521B8F216BE23900242127 /* GlobalVarNFunc.swift */,
+				3D14EBAF2183356000FEEEEC /* RestAPIServices.swift */,
+				3D8DD596216D1BCF0045DDCC /* TopRecentSongs.swift */,
+				3D7EED772192E20800EE9B8A /* ToastMessageView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D521B8721672B5100242127 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D521B8421672B0900242127 /* Main.storyboard */,
+				3DAB596B217A4AC900FCB9A7 /* Custom View */,
+				3DAE7E3D20FCFEB70062369D /* LaunchScreen.storyboard */,
+				3DF60A33217E405500C7E18B /* MenuToolbar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D521B8821672B5A00242127 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DA5C38321B8FB9B00C1CB7A /* PurchaseInfoViewController.swift */,
+				3DA5C38121B8DF8E00C1CB7A /* PaymentProfileViewController.swift */,
+				3DA5C37F21B8CE5A00C1CB7A /* ChangePasswordViewController.swift */,
+				3D3F6EC721B6F2050071E24A /* UpdateProfileViewController.swift */,
+				3D3F6EC321B6D89F0071E24A /* AccountRootTableViewController.swift */,
+				3D85452121B4F9B6005719F1 /* PlaylistSongViewController.swift */,
+				3D85451F21B4C934005719F1 /* AddUserPlaylistViewController.swift */,
+				3D85451D21B3B99F005719F1 /* PlaylistViewController.swift */,
+				3D09113821AFF7AD006C14E7 /* FullSpinningProgressView.swift */,
+				3DC5B2BB21AEB36100748E4C /* MySongViewController.swift */,
+				3DA5411921ABF5D700DE7CA4 /* SongViewController.swift */,
+				3DA5411721ABE0C100DE7CA4 /* AlbumViewController.swift */,
+				3DB2727D21AAF9EA00354838 /* AlbumSongViewController.swift */,
+				3DBD051521A944A700FBCBE5 /* ArtistAlbumViewController.swift */,
+				3DBD051321A6C9A400FBCBE5 /* ArtistViewController.swift */,
+				3DBD050D21A5873F00FBCBE5 /* LibraryRootTableViewController.swift */,
+				3D25AA51219C38BA00FAC15F /* BuySongViewController.swift */,
+				3D25AA4F219B497700FAC15F /* DisplayLyricViewController.swift */,
+				3D55DB35217F629F002B4A33 /* MiniPlayerViewController.swift */,
+				3D55DB33217F625E002B4A33 /* StartViewController.swift */,
+				3D14EBAE21806DE000FEEEEC /* TabBar */,
+				3D14EBAD21806D7D00FEEEEC /* Navigation */,
+				3DA514EE217B4213004CD7E6 /* GenreSongsViewController.swift */,
+				3DDE94872170BEC200F443D2 /* AddToPlaylistViewController.swift */,
+				3DDE94852170BE6C00F443D2 /* AddToPlaylistInitViewController.swift */,
+				3DAB596A217A4A2900FCB9A7 /* ViewCells */,
+				3D8DD594216C90230045DDCC /* HomeViewController.swift */,
+				3DF60A31217DFE2A00C7E18B /* SearchViewController.swift */,
+				3DAE7E3320FCFEB50062369D /* ViewController.swift */,
+				3D521B8921672CD900242127 /* LoginViewController.swift */,
+				3D521B8B216742E800242127 /* RegisterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DAB596A217A4A2900FCB9A7 /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				3DA5C38521B90D9300C1CB7A /* PurchaseInfoTableViewCell.swift */,
+				3D3F6EC521B6DD120071E24A /* MenuAccountTableViewCell.swift */,
+				3DBD051721A9DD5500FBCBE5 /* AlbumTableViewCell.swift */,
+				3DBD051121A6C6C900FBCBE5 /* ArtistCollectionViewCell.swift */,
+				3DBD050B21A5832F00FBCBE5 /* MenuLibTableViewCell.swift */,
+				3D25AA53219ED67500FAC15F /* RecentSearchTableViewCell.swift */,
+				3D7EED712191E75900EE9B8A /* SpinningProgressView.swift */,
+				3DA514F0217B440E004CD7E6 /* SongListTableViewCell.swift */,
+				3D85452321B543B2005719F1 /* PlaylistSongListTableViewCell.swift */,
+				3DDE948B2173134200F443D2 /* HomeSongListCollectionViewCell.swift */,
+				3D8DD598216DD1980045DDCC /* BannerCollectionViewCell.swift */,
+				3D70F5E6216E25D8006AA110 /* GenreCollectionViewCell.swift */,
+				3DDE94892170BF5D00F443D2 /* UserPlaylistPopUpTableViewCell.swift */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
+		3DAB596B217A4AC900FCB9A7 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				3D85452421B543B2005719F1 /* PlaylistSongListTableViewCell.xib */,
+				3D09113A21AFF7F3006C14E7 /* FullSpinningProgressView.xib */,
+				3D7EED752191EA3100EE9B8A /* SpinningProgressView.xib */,
+				3DBD051821A9DD5500FBCBE5 /* AlbumTableViewCell.xib */,
+				3DA514F1217B440E004CD7E6 /* SongListTableViewCell.xib */,
+				3DDE948C2173134200F443D2 /* HomeSongListCollectionViewCell.xib */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+		3DAE7E2520FCFEB50062369D = {
+			isa = PBXGroup;
+			children = (
+				3DAE7E3020FCFEB50062369D /* kaxet */,
+				3DAE7E4820FCFEB70062369D /* kaxetTests */,
+				3DAE7E5320FCFEB70062369D /* kaxetUITests */,
+				3DAE7E2F20FCFEB50062369D /* Products */,
+				986B0C26AAFCBE6C71BB2A1A /* Pods */,
+				157516FEA07BE3DF201BAB42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DAE7E2F20FCFEB50062369D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DAE7E2E20FCFEB50062369D /* kaxet.app */,
+				3DAE7E4520FCFEB70062369D /* kaxetTests.xctest */,
+				3DAE7E5020FCFEB70062369D /* kaxetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DAE7E3020FCFEB50062369D /* kaxet */ = {
+			isa = PBXGroup;
+			children = (
+				3DFF1CEC21BBFB32002F2172 /* kaxet.entitlements */,
+				3D521B8821672B5A00242127 /* Controller */,
+				3D521B8721672B5100242127 /* View */,
+				3D521B8621672B4000242127 /* Model */,
+				3DAE7E3B20FCFEB70062369D /* Assets.xcassets */,
+				3DAE7E3120FCFEB50062369D /* AppDelegate.swift */,
+				3DAE7E4020FCFEB70062369D /* Info.plist */,
+				3DAE7E3820FCFEB50062369D /* kaxet.xcdatamodeld */,
+				3D6DC4EA20FD28A9000E7D1E /* CustomDesign.swift */,
+			);
+			path = kaxet;
+			sourceTree = "<group>";
+		};
+		3DAE7E4820FCFEB70062369D /* kaxetTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DAE7E4920FCFEB70062369D /* kaxetTests.swift */,
+				3DAE7E4B20FCFEB70062369D /* Info.plist */,
+			);
+			path = kaxetTests;
+			sourceTree = "<group>";
+		};
+		3DAE7E5320FCFEB70062369D /* kaxetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DAE7E5420FCFEB70062369D /* kaxetUITests.swift */,
+				3DAE7E5620FCFEB70062369D /* Info.plist */,
+			);
+			path = kaxetUITests;
+			sourceTree = "<group>";
+		};
+		986B0C26AAFCBE6C71BB2A1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4654CB8F42D1B5297D53CDE3 /* Pods-kaxet.debug.xcconfig */,
+				F12735886361374698A7A5E6 /* Pods-kaxet.release.xcconfig */,
+				D6DA6C53BD5832977C2323AB /* Pods-kaxetTests.debug.xcconfig */,
+				AE92740DC12522EC3C5F6D10 /* Pods-kaxetTests.release.xcconfig */,
+				7F9BED9CE3A7915DA8FBC3A0 /* Pods-kaxetUITests.debug.xcconfig */,
+				394C7495DDA780C8E054D4C1 /* Pods-kaxetUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DAE7E2D20FCFEB50062369D /* kaxet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAE7E5920FCFEB70062369D /* Build configuration list for PBXNativeTarget "kaxet" */;
+			buildPhases = (
+				EE9DBA7C3F2B0B0A8B0958D6 /* [CP] Check Pods Manifest.lock */,
+				3DAE7E2A20FCFEB50062369D /* Sources */,
+				3DAE7E2B20FCFEB50062369D /* Frameworks */,
+				3DAE7E2C20FCFEB50062369D /* Resources */,
+				626AD2FB5728528C1BC15E25 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kaxet;
+			productName = kaxet;
+			productReference = 3DAE7E2E20FCFEB50062369D /* kaxet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DAE7E4420FCFEB70062369D /* kaxetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAE7E5C20FCFEB70062369D /* Build configuration list for PBXNativeTarget "kaxetTests" */;
+			buildPhases = (
+				1FBC7B59E1B13377C31178CF /* [CP] Check Pods Manifest.lock */,
+				3DAE7E4120FCFEB70062369D /* Sources */,
+				3DAE7E4220FCFEB70062369D /* Frameworks */,
+				3DAE7E4320FCFEB70062369D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DAE7E4720FCFEB70062369D /* PBXTargetDependency */,
+			);
+			name = kaxetTests;
+			productName = kaxetTests;
+			productReference = 3DAE7E4520FCFEB70062369D /* kaxetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DAE7E4F20FCFEB70062369D /* kaxetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAE7E5F20FCFEB70062369D /* Build configuration list for PBXNativeTarget "kaxetUITests" */;
+			buildPhases = (
+				AF301DB440F8CA2C527DF40A /* [CP] Check Pods Manifest.lock */,
+				3DAE7E4C20FCFEB70062369D /* Sources */,
+				3DAE7E4D20FCFEB70062369D /* Frameworks */,
+				3DAE7E4E20FCFEB70062369D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DAE7E5220FCFEB70062369D /* PBXTargetDependency */,
+			);
+			name = kaxetUITests;
+			productName = kaxetUITests;
+			productReference = 3DAE7E5020FCFEB70062369D /* kaxetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DAE7E2620FCFEB50062369D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "LEONARD GURNING";
+				TargetAttributes = {
+					3DAE7E2D20FCFEB50062369D = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					3DAE7E4420FCFEB70062369D = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 3DAE7E2D20FCFEB50062369D;
+					};
+					3DAE7E4F20FCFEB70062369D = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 3DAE7E2D20FCFEB50062369D;
+					};
+				};
+			};
+			buildConfigurationList = 3DAE7E2920FCFEB50062369D /* Build configuration list for PBXProject "kaxet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DAE7E2520FCFEB50062369D;
+			productRefGroup = 3DAE7E2F20FCFEB50062369D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DAE7E2D20FCFEB50062369D /* kaxet */,
+				3DAE7E4420FCFEB70062369D /* kaxetTests */,
+				3DAE7E4F20FCFEB70062369D /* kaxetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DAE7E2C20FCFEB50062369D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D521B8521672B0900242127 /* Main.storyboard in Resources */,
+				3DA514F3217B440E004CD7E6 /* SongListTableViewCell.xib in Resources */,
+				3D85452621B543B2005719F1 /* PlaylistSongListTableViewCell.xib in Resources */,
+				3DAE7E3F20FCFEB70062369D /* LaunchScreen.storyboard in Resources */,
+				3DDE948E2173134300F443D2 /* HomeSongListCollectionViewCell.xib in Resources */,
+				3DBD051A21A9DD5500FBCBE5 /* AlbumTableViewCell.xib in Resources */,
+				3DAE7E3C20FCFEB70062369D /* Assets.xcassets in Resources */,
+				3D09113B21AFF7F3006C14E7 /* FullSpinningProgressView.xib in Resources */,
+				3D7EED762191EA3100EE9B8A /* SpinningProgressView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAE7E4320FCFEB70062369D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAE7E4E20FCFEB70062369D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FBC7B59E1B13377C31178CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kaxetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		626AD2FB5728528C1BC15E25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kaxet/Pods-kaxet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PCLBlurEffectAlert/PCLBlurEffectAlert.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PCLBlurEffectAlert.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaxet/Pods-kaxet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF301DB440F8CA2C527DF40A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kaxetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE9DBA7C3F2B0B0A8B0958D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kaxet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DAE7E2A20FCFEB50062369D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3F6EC821B6F2050071E24A /* UpdateProfileViewController.swift in Sources */,
+				3D14EBAA2180662A00FEEEEC /* BaseNavigationController.swift in Sources */,
+				3DAE7E3420FCFEB50062369D /* ViewController.swift in Sources */,
+				3D55DB36217F629F002B4A33 /* MiniPlayerViewController.swift in Sources */,
+				3D7EED6C218F4F8B00EE9B8A /* DownloadService.swift in Sources */,
+				3DBD050C21A5832F00FBCBE5 /* MenuLibTableViewCell.swift in Sources */,
+				3DBD050E21A5873F00FBCBE5 /* LibraryRootTableViewController.swift in Sources */,
+				3D85452021B4C934005719F1 /* AddUserPlaylistViewController.swift in Sources */,
+				3DBD051421A6C9A400FBCBE5 /* ArtistViewController.swift in Sources */,
+				3D25AA50219B497700FAC15F /* DisplayLyricViewController.swift in Sources */,
+				3D55DB38217F8426002B4A33 /* KaxetTabBarViewController.swift in Sources */,
+				3D8DD599216DD1980045DDCC /* BannerCollectionViewCell.swift in Sources */,
+				3DDE94862170BE6C00F443D2 /* AddToPlaylistInitViewController.swift in Sources */,
+				3DAE7E3220FCFEB50062369D /* AppDelegate.swift in Sources */,
+				3DF60A36217E655600C7E18B /* BaseCell.swift in Sources */,
+				3D85452221B4F9B6005719F1 /* PlaylistSongViewController.swift in Sources */,
+				3D3F6EC221B6D75F0071E24A /* AccountNavigationController.swift in Sources */,
+				3DBD051621A944A700FBCBE5 /* ArtistAlbumViewController.swift in Sources */,
+				3D14EBB02183356000FEEEEC /* RestAPIServices.swift in Sources */,
+				3D09113921AFF7AD006C14E7 /* FullSpinningProgressView.swift in Sources */,
+				3D55DB34217F625E002B4A33 /* StartViewController.swift in Sources */,
+				3D7EED722191E75900EE9B8A /* SpinningProgressView.swift in Sources */,
+				3D7EED6A218F4F4000EE9B8A /* GenericDownloadTask.swift in Sources */,
+				3DA5411821ABE0C100DE7CA4 /* AlbumViewController.swift in Sources */,
+				3DF60A34217E405500C7E18B /* MenuToolbar.swift in Sources */,
+				3DF60A32217DFE2A00C7E18B /* SearchViewController.swift in Sources */,
+				3D6DC4EB20FD28A9000E7D1E /* CustomDesign.swift in Sources */,
+				3D70F5E7216E25D8006AA110 /* GenreCollectionViewCell.swift in Sources */,
+				3DA5411A21ABF5D700DE7CA4 /* SongViewController.swift in Sources */,
+				3D521B90216BE23900242127 /* GlobalVarNFunc.swift in Sources */,
+				3DDE948D2173134200F443D2 /* HomeSongListCollectionViewCell.swift in Sources */,
+				3D25AA54219ED67500FAC15F /* RecentSearchTableViewCell.swift in Sources */,
+				3DBD051221A6C6C900FBCBE5 /* ArtistCollectionViewCell.swift in Sources */,
+				3D521B8C216742E800242127 /* RegisterViewController.swift in Sources */,
+				3DA5C38621B90D9300C1CB7A /* PurchaseInfoTableViewCell.swift in Sources */,
+				3D25AA52219C38BA00FAC15F /* BuySongViewController.swift in Sources */,
+				3D7EED68218F4F0100EE9B8A /* DownloadTask.swift in Sources */,
+				3D85452521B543B2005719F1 /* PlaylistSongListTableViewCell.swift in Sources */,
+				3D7EED782192E20800EE9B8A /* ToastMessageView.swift in Sources */,
+				3D55DB3A217F84AE002B4A33 /* HomeNavigationController.swift in Sources */,
+				3DC5B2BC21AEB36100748E4C /* MySongViewController.swift in Sources */,
+				3D14EBAC21806BE000FEEEEC /* SearchNavigationController.swift in Sources */,
+				3DA5C38021B8CE5A00C1CB7A /* ChangePasswordViewController.swift in Sources */,
+				3DA5C38421B8FB9B00C1CB7A /* PurchaseInfoViewController.swift in Sources */,
+				3D8DD595216C90230045DDCC /* HomeViewController.swift in Sources */,
+				3DBD051021A59E9E00FBCBE5 /* KxCustomImageView.swift in Sources */,
+				3DBD051921A9DD5500FBCBE5 /* AlbumTableViewCell.swift in Sources */,
+				3D521B8A21672CD900242127 /* LoginViewController.swift in Sources */,
+				3DDE94882170BEC200F443D2 /* AddToPlaylistViewController.swift in Sources */,
+				3DA514F2217B440E004CD7E6 /* SongListTableViewCell.swift in Sources */,
+				3D521B8E216B44D300242127 /* UserLogin.swift in Sources */,
+				3DDE948A2170BF5D00F443D2 /* UserPlaylistPopUpTableViewCell.swift in Sources */,
+				3D3F6EC421B6D89F0071E24A /* AccountRootTableViewController.swift in Sources */,
+				3DA5C38221B8DF8E00C1CB7A /* PaymentProfileViewController.swift in Sources */,
+				3DAE7E3A20FCFEB50062369D /* kaxet.xcdatamodeld in Sources */,
+				3DB2728021AB21F200354838 /* LibraryNavigationController.swift in Sources */,
+				3D85451E21B3B99F005719F1 /* PlaylistViewController.swift in Sources */,
+				3DA514EF217B4213004CD7E6 /* GenreSongsViewController.swift in Sources */,
+				3D8DD597216D1BCF0045DDCC /* TopRecentSongs.swift in Sources */,
+				3D3F6EC621B6DD120071E24A /* MenuAccountTableViewCell.swift in Sources */,
+				3DB2727E21AAF9EA00354838 /* AlbumSongViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAE7E4120FCFEB70062369D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAE7E4A20FCFEB70062369D /* kaxetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAE7E4C20FCFEB70062369D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAE7E5520FCFEB70062369D /* kaxetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DAE7E4720FCFEB70062369D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DAE7E2D20FCFEB50062369D /* kaxet */;
+			targetProxy = 3DAE7E4620FCFEB70062369D /* PBXContainerItemProxy */;
+		};
+		3DAE7E5220FCFEB70062369D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DAE7E2D20FCFEB50062369D /* kaxet */;
+			targetProxy = 3DAE7E5120FCFEB70062369D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DAE7E3D20FCFEB70062369D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DAE7E3E20FCFEB70062369D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DAE7E5720FCFEB70062369D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DAE7E5820FCFEB70062369D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DAE7E5A20FCFEB70062369D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4654CB8F42D1B5297D53CDE3 /* Pods-kaxet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = kaxet/kaxet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZA9FA2894;
+				INFOPLIST_FILE = kaxet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"PCLBlurEffectAlert\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SwiftKeychainWrapper\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"TextFieldEffects\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptcerdas.kaxet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DAE7E5B20FCFEB70062369D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12735886361374698A7A5E6 /* Pods-kaxet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = kaxet/kaxet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZA9FA2894;
+				INFOPLIST_FILE = kaxet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"PCLBlurEffectAlert\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SwiftKeychainWrapper\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"TextFieldEffects\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptcerdas.kaxet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DAE7E5D20FCFEB70062369D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6DA6C53BD5832977C2323AB /* Pods-kaxetTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kaxetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leogurning.kaxetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kaxet.app/kaxet";
+			};
+			name = Debug;
+		};
+		3DAE7E5E20FCFEB70062369D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE92740DC12522EC3C5F6D10 /* Pods-kaxetTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kaxetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leogurning.kaxetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kaxet.app/kaxet";
+			};
+			name = Release;
+		};
+		3DAE7E6020FCFEB70062369D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9BED9CE3A7915DA8FBC3A0 /* Pods-kaxetUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kaxetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leogurning.kaxetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kaxet;
+			};
+			name = Debug;
+		};
+		3DAE7E6120FCFEB70062369D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394C7495DDA780C8E054D4C1 /* Pods-kaxetUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kaxetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leogurning.kaxetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kaxet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DAE7E2920FCFEB50062369D /* Build configuration list for PBXProject "kaxet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAE7E5720FCFEB70062369D /* Debug */,
+				3DAE7E5820FCFEB70062369D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DAE7E5920FCFEB70062369D /* Build configuration list for PBXNativeTarget "kaxet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAE7E5A20FCFEB70062369D /* Debug */,
+				3DAE7E5B20FCFEB70062369D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DAE7E5C20FCFEB70062369D /* Build configuration list for PBXNativeTarget "kaxetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAE7E5D20FCFEB70062369D /* Debug */,
+				3DAE7E5E20FCFEB70062369D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DAE7E5F20FCFEB70062369D /* Build configuration list for PBXNativeTarget "kaxetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAE7E6020FCFEB70062369D /* Debug */,
+				3DAE7E6120FCFEB70062369D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3DAE7E3820FCFEB50062369D /* kaxet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3DAE7E3920FCFEB50062369D /* kaxet.xcdatamodel */,
+			);
+			currentVersion = 3DAE7E3920FCFEB50062369D /* kaxet.xcdatamodel */;
+			path = kaxet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3DAE7E2620FCFEB50062369D /* Project object */;
+}
