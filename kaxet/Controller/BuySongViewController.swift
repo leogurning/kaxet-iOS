@@ -426,6 +426,7 @@ extension BuySongViewController: WKNavigationDelegate, WKUIDelegate {
             let urlString = newURL.absoluteString
             
             if urlString.hasPrefix("gojek://") {
+                //print("Open gojek")
                 UIApplication.shared.open(newURL, completionHandler: { (result) in
                     if result {
                         //print(newURL)

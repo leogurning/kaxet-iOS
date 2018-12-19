@@ -79,7 +79,7 @@ open class ToastMessageView: UILabel {
         UIView.animate(withDuration: 0.5, animations: {
             self.overlayView.alpha = 1
         }) { (true) in
-            UIView.animate(withDuration: 5, animations: {
+            UIView.animate(withDuration: 3, animations: {
                 self.overlayView.alpha = 0
             }) { (true) in
                 UIView.animate(withDuration: 0.5, animations: {

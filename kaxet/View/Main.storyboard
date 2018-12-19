@@ -1800,7 +1800,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1sQ-Fe-FZt" userLabel="AlbumView">
                                         <rect key="frame" x="5" y="2" width="50" height="66"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DYD-nh-syz" customClass="KxCustomImageView" customModule="kaxet" customModuleProvider="target">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DYD-nh-syz" customClass="KxCustomImageView" customModule="kaxet" customModuleProvider="target">
                                                 <rect key="frame" x="3" y="3" width="44" height="60"/>
                                             </imageView>
                                         </subviews>
@@ -3321,7 +3321,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="355" height="589"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <view key="tableHeaderView" contentMode="scaleToFill" id="2iN-AY-0S3" userLabel="HeaderView">
+                        <view key="tableHeaderView" contentMode="scaleToFill" misplaced="YES" id="2iN-AY-0S3" userLabel="HeaderView">
                             <rect key="frame" x="0.0" y="0.0" width="355" height="220"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
@@ -3334,7 +3334,7 @@
                                     </constraints>
                                 </imageView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8NT-sE-JhN">
-                                    <rect key="frame" x="8" y="138" width="339" height="82"/>
+                                    <rect key="frame" x="8" y="138" width="339" height="4"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome," textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EL3-Hk-0tu">
                                             <rect key="frame" x="4" y="8" width="331" height="17.5"/>
